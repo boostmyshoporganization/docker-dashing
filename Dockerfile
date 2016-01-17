@@ -11,10 +11,7 @@ RUN apt-get update && apt-get install -y \
     ruby-dev \
     nodejs \
     bundler \
-    rubygems-integration \
-    unclutter \
-    x11vnc \ 
-    chromium-browser
+    rubygems-integration
 
 # Install dashing with gem
 RUN gem install dashing
